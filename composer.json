@@ -1,0 +1,24 @@
+{
+    "name": "dolfandringa/fuwiki_theme",
+    "description": "Childtheme of drupal/bootstrap for the Foundation University Wiki.",
+    "type": "drupal-theme",
+    "license": "GPL-2.0",
+    "homepage": "http://wiki.foundationu.com",
+    "authors": [
+        {
+            "name": "Dolf Andringa",
+            "homepage": "http://wiki.foundaitonu.com/dolfandringa",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "drupal/bootstrap": "^3.7"
+    }
+
+  }
