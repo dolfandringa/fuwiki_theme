@@ -5,3 +5,9 @@
  *
  * Place your custom PHP code in this file.
  */
+function fuwiki_bootstrap_preprocess_comment(&$variables) {
+  $variables['submitted'] = t('@username (@datetime)', [
+    '@username' => $variables['author'],
+    '@datetime' => $variables['created'],
+  ]);
+}
