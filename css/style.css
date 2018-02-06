@@ -1,6 +1,17 @@
 /**
  * Place your custom styles here.
  */
+.indented{
+  padding-left: 30px;
+}
+.indented article[typeof="schema:Comment"]{
+  font-size: 0.8em;
+}
+
+article[typeof="schema:Comment"] footer{
+  font-size: 0.8em;
+}
+
 body{
   background-color: #eee;
 }
