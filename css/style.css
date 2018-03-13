@@ -12,6 +12,14 @@ article[typeof="schema:Comment"] footer{
   font-size: 0.8em;
 }
 
+section#block-disclaimer {
+	border-top: 1px solid #eee;
+	margin-top: 20px;
+	padding-top: 10px;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
 body{
   background-color: #eee;
 }
