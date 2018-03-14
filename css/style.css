@@ -1,6 +1,14 @@
 /**
  * Place your custom styles here.
  */
+.article .field--type-image{
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+.article section[rel="schema:comment"] {
+  clear: left;
+}
+
 .indented{
   padding-left: 30px;
 }
